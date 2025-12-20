@@ -27,10 +27,12 @@ export default defineAppConfig({
     colorMode: false,
     links: [{
       'icon': 'i-simple-icons-wechat',
-      'type': 'image'
+      'type': 'image',
+      'url': '',
     }, {
       'icon': 'i-simple-icons-qq',
-      'type': 'image'
+      'type': 'image',
+      'url': '',
     }, {
       'icon': 'i-simple-icons-github',
       'type': 'url',
