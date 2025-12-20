@@ -26,20 +26,17 @@ export default defineAppConfig({
     credits: `Built with Nuxt UI • © ${new Date().getFullYear()}`,
     colorMode: false,
     links: [{
-      'icon': 'i-simple-icons-discord',
-      'to': 'https://go.nuxt.com/discord',
-      'target': '_blank',
-      'aria-label': 'Nuxt on Discord'
+      'icon': 'i-simple-icons-wechat',
+      'type': 'image'
     }, {
-      'icon': 'i-simple-icons-x',
-      'to': 'https://go.nuxt.com/x',
-      'target': '_blank',
-      'aria-label': 'Nuxt on X'
+      'icon': 'i-simple-icons-qq',
+      'type': 'image'
     }, {
       'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/nuxt/ui',
+      'type': 'url',
+      'to': 'https://github.com/Greaki',
       'target': '_blank',
-      'aria-label': 'Nuxt UI on GitHub'
+      'aria-label': 'jinjin on GitHub'
     }]
   }
 })

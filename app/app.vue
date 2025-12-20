@@ -18,9 +18,9 @@ useHead({
 })
 
 useSeoMeta({
-  titleTemplate: '%s - Nuxt Portfolio Template',
-  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/portfolio-light.png',
-  twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/portfolio-light.png',
+  titleTemplate: '%s - jinjin blog , work and life record',
+  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/portfolio-light.png', // TODO 需要换
+  twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/portfolio-light.png', // TODO 需要换
   twitterCard: 'summary_large_image'
 })
 
@@ -51,7 +51,9 @@ const [{ data: navigation }, { data: files }] = await Promise.all([
       </UMain>
     </NuxtLayout>
 
-    <!-- <ClientOnly>
+    <!-- 仅仅客户端渲染 -->
+    <ClientOnly>
+      <!-- 一个可直接添加到文档中的命令面板。 -->
       <LazyUContentSearch
         :files="files"
         :navigation="navigation"
@@ -59,6 +61,6 @@ const [{ data: navigation }, { data: files }] = await Promise.all([
         :links="navLinks"
         :fuse="{ resultLimit: 42 }"
       />
-    </ClientOnly> -->
+    </ClientOnly>
   </UApp>
 </template>

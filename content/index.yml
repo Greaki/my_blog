@@ -1,13 +1,16 @@
 seo:
-  title: "测试"
-  description: "Welcome to my portfolio! I'm Emma Thompson, a UX/UI designer and front-end developer based in Boston. I specialize in creating user-centered digital experiences that are both beautiful and functional."
-title: "Hey, I'm Emma Thompson UX/UI Designer"
-description: "I craft intuitive digital experiences where design meets functionality. Based in Boston, bringing ideas to life through code and creativity."
+  title: "金金同学的博客"
+  description: "欢迎来到金金同学的博客，全栈工程师，java全家桶、vue、react、taro、uniapp以及flutter"
+title: "坐和放宽，我是金金"
+description: "个人自留地，全干工程师，写点代码除了谋生，也为取悦自己。"
 hero:
   links:
-    - label: "Use this template"
+    - label: "博客模板自取"
       to: https://github.com/nuxt-ui-templates/portfolio
       color: "neutral"
+    # - label: "卖鱼的店"
+    #   to: https://github.com/emma-dev/portfolio
+    #   color: "neutral"
   images:
     - src: /hero/random-1.avif
       alt: Random Image 1
