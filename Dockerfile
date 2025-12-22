@@ -3,6 +3,9 @@ FROM node:22 AS builder
 WORKDIR /app
 ENV NODE_ENV=production
 
+# 设置 npm 镜像为淘宝源
+ENV PNPM_REGISTRY=https://registry.npmmirror.com
+
 RUN corepack enable
 
 COPY package.json pnpm-lock.yaml ./
