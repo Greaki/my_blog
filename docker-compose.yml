@@ -1,0 +1,23 @@
+version: "3.9"
+
+services:
+  nuxt:
+    container_name: my_blog_of_nuxt
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: my_blog_of_nuxt:latest
+
+    ports:
+      - "40080:3000"        # 宿主端口 : 容器端口
+
+    environment:
+      NODE_ENV: production
+      NUXT_HOST: 0.0.0.0
+      NUXT_PORT: 3000
+
+    # volumes:
+      # 👉 如果你有运行期需要写入的目录（如 sqlite / uploads）
+      # - ./data:/app/data
+
+    restart: unless-stopped
