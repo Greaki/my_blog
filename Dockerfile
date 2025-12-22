@@ -9,7 +9,7 @@ ENV PNPM_REGISTRY=https://registry.npmmirror.com
 RUN corepack enable
 
 COPY package.json pnpm-lock.yaml ./
-RUN pnpm install --registry=https://registry.npmmirror.com --frozen-lockfile
+RUN pnpm install --registry=https://registry.npmmirror.com
 
 COPY . .
 RUN pnpm build
