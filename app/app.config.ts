@@ -28,11 +28,11 @@ export default defineAppConfig({
     links: [{
       'icon': 'i-simple-icons-wechat',
       'type': 'image',
-      'url': '',
+      'url': 'https://oss.jinjin-bao.top/i/2025/12/22/ffpir8.png',
     }, {
       'icon': 'i-simple-icons-qq',
       'type': 'image',
-      'url': '',
+      'url': 'https://oss.jinjin-bao.top/i/2025/12/22/fhaocc.png',
     }, {
       'icon': 'i-simple-icons-github',
       'type': 'url',

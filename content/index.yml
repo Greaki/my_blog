@@ -31,33 +31,32 @@ hero:
     - src: /hero/random-9.avif
       alt: Random Image 9
 about:
-  title: "About Me"
+  title: "关于金金"
   description: |
-    As a UX/UI designer and front-end developer with 6 years of experience, I leverage my Boston University Interactive Design degree to craft user-centered digital experiences.
-    My approach blends creative strategy with technical expertise, transforming concepts into functional, purposeful digital products that seamlessly integrate design and technology.
+    金金，一个全栈工程师，喜欢写点代码，更喜欢玩游戏。LOL 大乱斗选手。事实上，和生活的对线已经耗尽他的精力。
 experience:
-  title: Work Experience
+  title: 工作经验
   items:
-    - position: "Brand Designer at"
-      date: "2023 - Present"
+    - position: "web developer at"
+      date: "2025 - Present"
       company:
-        name: Nuxt
-        logo: "i-simple-icons-nuxtdotjs"
-        url: "https://nuxt.com"
+        name: HXL
+        # logo: "i-simple-icons-nuxtdotjs"
+        # url: "https://nuxt.com"
         color: "#00DC82"
-    - position: "Assets Designer at"
-      date: "2022 - 2023"
+    - position: "web developer at"
+      date: "2021 - 2025"
       company:
-        name: Raycast
-        logo: "i-simple-icons-raycast"
-        url: "https://raycast.com"
+        name: YMM
+        # logo: "i-simple-icons-raycast"
+        # url: "https://raycast.com"
         color: "#FF6363"
-    - position: "Senior UX/UI Designer at"
-      date: "2020 - 2021"
+    - position: "web developer at"
+      date: "2018 -2021"
       company:
-        name: Linear
-        logo: "i-simple-icons-linear"
-        url: "https://linear.app"
+        name: unknown
+        # logo: "i-simple-icons-linear"
+        # url: "https://linear.app"
         color: "#5E6AD2"
 testimonials:
   - quote: "Emma's approach to UX design completely transformed our product. She has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our customer support tickets by 40% and increased conversion rates across all key metrics."
@@ -82,8 +81,8 @@ testimonials:
         src: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
         srcset: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
 blog:
-  title: "Latest Articles"
-  description: "Some of my recent thoughts"
+  title: "最近的一些文章"
+  description: "写作的真正艺术不是表达思想，而是通过写作来发现和形成思想。 -- 蒙田"
 faq:
   title: Frequently Asked Questions
   description: Answers to common questions about my process and services.
