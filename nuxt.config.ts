@@ -22,6 +22,7 @@ export default defineNuxtConfig({
 
   nitro: {
     preset: 'node-server',
+    logLevel: 4,
     prerender: {
       routes: [
         '/'
