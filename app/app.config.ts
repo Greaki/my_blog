@@ -1,8 +1,8 @@
 export default defineAppConfig({
   global: {
     picture: {
-      dark: 'https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      light: 'https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      dark: 'https://oss.jinjin-bao.top/i/2026/02/05/qgonq8.jpg',
+      light: 'hhttps://oss.jinjin-bao.top/i/2026/02/05/qgonq8.jpg',
       alt: 'My profile picture'
     },
     meetingLink: 'https://cal.com/',
@@ -26,13 +26,13 @@ export default defineAppConfig({
     credits: `Built with Nuxt UI • © ${new Date().getFullYear()}`,
     colorMode: false,
     links: [{
-      'icon': 'i-simple-icons-wechat',
-      'type': 'image',
-      'url': 'https://oss.jinjin-bao.top/i/2025/12/22/ffpir8.png',
+      icon: 'i-simple-icons-wechat',
+      type: 'image',
+      url: 'https://oss.jinjin-bao.top/i/2025/12/22/ffpir8.png'
     }, {
-      'icon': 'i-simple-icons-qq',
-      'type': 'image',
-      'url': 'https://oss.jinjin-bao.top/i/2025/12/22/fhaocc.png',
+      icon: 'i-simple-icons-qq',
+      type: 'image',
+      url: 'https://oss.jinjin-bao.top/i/2025/12/22/fhaocc.png'
     }, {
       'icon': 'i-simple-icons-github',
       'type': 'url',
