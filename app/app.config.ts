@@ -2,7 +2,7 @@ export default defineAppConfig({
   global: {
     picture: {
       dark: 'https://oss.jinjin-bao.top/i/2026/02/05/qgonq8.jpg',
-      light: 'hhttps://oss.jinjin-bao.top/i/2026/02/05/qgonq8.jpg',
+      light: 'https://oss.jinjin-bao.top/i/2026/02/05/qgonq8.jpg',
       alt: 'My profile picture'
     },
     meetingLink: 'https://cal.com/',

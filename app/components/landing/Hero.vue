@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import type { IndexCollectionItem } from "@nuxt/content";
-import type { ButtonProps } from "@nuxt/ui";
+import type { IndexCollectionItem } from '@nuxt/content'
+import type { ButtonProps } from '@nuxt/ui'
 
-const { footer, global } = useAppConfig();
+const { footer, global } = useAppConfig()
 
 defineProps<{
-  page: IndexCollectionItem;
-}>();
+  page: IndexCollectionItem
+}>()
 </script>
 
 <template>
@@ -14,7 +14,7 @@ defineProps<{
     :ui="{
       headline: 'flex items-center justify-center',
       title: 'text-shadow-md max-w-lg mx-auto',
-      links: 'mt-4 flex-col justify-center items-center',
+      links: 'mt-4 flex-col justify-center items-center'
     }"
   >
     <template #headline>
@@ -23,16 +23,16 @@ defineProps<{
         :initial="{
           scale: 1.1,
           opacity: 0,
-          filter: 'blur(20px)',
+          filter: 'blur(20px)'
         }"
         :animate="{
           scale: 1,
           opacity: 1,
-          filter: 'blur(0px)',
+          filter: 'blur(0px)'
         }"
         :transition="{
           duration: 0.6,
-          delay: 0.1,
+          delay: 0.1
         }"
       >
         <UColorModeAvatar
@@ -49,16 +49,16 @@ defineProps<{
         :initial="{
           scale: 1.1,
           opacity: 0,
-          filter: 'blur(20px)',
+          filter: 'blur(20px)'
         }"
         :animate="{
           scale: 1,
           opacity: 1,
-          filter: 'blur(0px)',
+          filter: 'blur(0px)'
         }"
         :transition="{
           duration: 0.6,
-          delay: 0.1,
+          delay: 0.1
         }"
       >
         {{ page.title }}
@@ -70,16 +70,16 @@ defineProps<{
         :initial="{
           scale: 1.1,
           opacity: 0,
-          filter: 'blur(20px)',
+          filter: 'blur(20px)'
         }"
         :animate="{
           scale: 1,
           opacity: 1,
-          filter: 'blur(0px)',
+          filter: 'blur(0px)'
         }"
         :transition="{
           duration: 0.6,
-          delay: 0.3,
+          delay: 0.3
         }"
       >
         {{ page.description }}
@@ -118,16 +118,16 @@ defineProps<{
           :initial="{
             scale: 1.1,
             opacity: 0,
-            filter: 'blur(20px)',
+            filter: 'blur(20px)'
           }"
           :animate="{
             scale: 1,
             opacity: 1,
-            filter: 'blur(0px)',
+            filter: 'blur(0px)'
           }"
           :transition="{
             duration: 0.6,
-            delay: 0.5 + index * 0.1,
+            delay: 0.5 + index * 0.1
           }"
         >
           <!-- 如果type 是 image，鼠标 hover 出现图片，如果 type 是 url，则点击跳转 -->
@@ -139,12 +139,15 @@ defineProps<{
                     size: 'md',
                     color: 'neutral',
                     variant: 'ghost',
-                    ...link,
+                    ...link
                   } as ButtonProps
                 "
               />
               <template #content>
-                <img class="size-48 m-4 inline-flex" :src="link.url"></img>
+                <img
+                  class="size-48 m-4 inline-flex"
+                  :src="link.url"
+                />
               </template>
             </UPopover>
           </template>
@@ -155,7 +158,7 @@ defineProps<{
                 size: 'md',
                 color: 'neutral',
                 variant: 'ghost',
-                ...link,
+                ...link
               } as ButtonProps
             "
           />
@@ -173,16 +176,16 @@ defineProps<{
         :initial="{
           scale: 1.1,
           opacity: 0,
-          filter: 'blur(20px)',
+          filter: 'blur(20px)'
         }"
         :animate="{
           scale: 1,
           opacity: 1,
-          filter: 'blur(0px)',
+          filter: 'blur(0px)'
         }"
         :transition="{
           duration: 0.6,
-          delay: index * 0.1,
+          delay: index * 0.1
         }"
       >
         <NuxtImg
