@@ -11,7 +11,7 @@ if (!page.value) {
 }
 
 const { data: projects } = await useAsyncData('projects', () => {
-  return queryCollection('projects').all()
+  return queryCollection('projects').order('date', 'DESC').all()
 })
 
 const { global } = useAppConfig()
@@ -85,10 +85,11 @@ useSeoMeta({
           </template>
           <template #footer>
             <ULink
+              target="_blank"
               :to="project.url"
               class="text-sm text-primary flex items-center"
             >
-              View Project
+              点击查看
               <UIcon
                 name="i-lucide-arrow-right"
                 class="size-4 text-primary transition-all opacity-0 group-hover:translate-x-1 group-hover:opacity-100"
