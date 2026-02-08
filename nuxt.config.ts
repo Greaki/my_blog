@@ -7,7 +7,8 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@vueuse/nuxt',
     'nuxt-og-image',
-    'motion-v/nuxt'
+    'motion-v/nuxt',
+    '@nuxt/icon'
   ],
 
   ssr: true,
@@ -43,5 +44,14 @@ export default defineNuxtConfig({
   // 不要google字体，无法下载
   fonts: {
     provider: 'none'
+  },
+
+  icon: {
+    serverBundle: {
+      collections: ['lucide']
+    },
+    clientBundle: {
+      scan: true
+    }
   }
 })
