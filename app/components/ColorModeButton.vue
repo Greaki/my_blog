@@ -44,15 +44,20 @@ const startViewTransition = (event: MouseEvent) => {
 </script>
 
 <template>
-  <UButton
-    :aria-label="`Switch to ${nextTheme} mode`"
-    :icon="nextTheme === 'dark' ? 'i-lucide-sun' : 'i-lucide-moon'"
-    color="neutral"
-    variant="ghost"
-    size="sm"
-    class="rounded-full"
-    @click="startViewTransition"
-  />
+  <ClientOnly>
+    <UButton
+      :aria-label="`Switch to ${nextTheme} mode`"
+      :icon="nextTheme === 'dark' ? 'i-lucide-sun' : 'i-lucide-moon'"
+      color="neutral"
+      variant="ghost"
+      size="sm"
+      class="rounded-full"
+      @click="startViewTransition"
+    />
+    <template #fallback>
+      <div class="size-4" />
+    </template>
+  </ClientOnly>
 </template>
 
 <style>
