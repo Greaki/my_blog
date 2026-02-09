@@ -50,8 +50,8 @@ export default defineNuxtConfig({
     clientBundle: {
       scan: true,
       icons: [
-        'i-lucide-moon',
-        'i-lucide-sun'
+        'lucide:moon',
+        'lucide:sun'
       ]
     }
   }
