@@ -47,14 +47,11 @@ export default defineNuxtConfig({
   },
 
   icon: {
-    serverBundle: {
-      collections: [
-        'lucide',
-        'simple-icons'
-      ],
+    clientBundle: {
+      scan: true,
       icons: [
-        'sun',
-        'moon'
+        'i-lucide-moon',
+        'i-lucide-sun'
       ]
     }
   }
