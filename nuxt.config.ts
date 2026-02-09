@@ -46,12 +46,12 @@ export default defineNuxtConfig({
     provider: 'none'
   },
 
-  icon: {
-    serverBundle: {
-      collections: ['lucide']
-    },
-    clientBundle: {
-      scan: true
-    }
-  }
+  // icon: {
+  //   serverBundle: {
+  //     collections: ['lucide']
+  //   },
+  //   clientBundle: {
+  //     scan: true
+  //   }
+  // }
 })
